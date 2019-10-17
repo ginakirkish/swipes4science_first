@@ -1,14 +1,13 @@
 {
   "needsTutorial": false,
-  "manifestUrl": "https://raw.githubusercontent.com/SwipesForScience/exampleConfig/master/bsHbnManifest.json",
+  "manifestUrl": "https://raw.githubusercontent.com/ginakirkish/swipes4science_first/master/manifest.json",
   "manifestType": "json",
   "widgetType": "ImageSwipe",
   "widgetProperties": {
-    "baseUrlTemplate": "https://github.com/ginakirkish/swipes4science_first/blob/master/pictures/{1}.jpg",
+    "baseUrlTemplate": "https://raw.githubusercontent.com/ginakirkish/swipes4science_first/master/pictures/{0}.jpg",
     "delimiter": "__",
     "leftSwipeLabel": "Fail",
-    "rightSwipeLabel": "Pass",
-    "soundUrlTemplate": null
+    "rightSwipeLabel": "Pass"
   },
   "iconAttribute": {
     "name": "openmoji",
@@ -78,7 +77,7 @@
     "authDomain": "first-segmentation.firebaseapp.com",
     "databaseURL": "https://first-segmentation.firebaseio.com",
     "projectId": "first-segmentation",
-    "storageBucket": "",
+    "storageBucket": "first-segmentation.appspot.com",
     "messagingSenderId": "116969483849"
   },
   "app": {
